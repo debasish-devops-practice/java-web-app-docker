@@ -73,7 +73,11 @@
 			<artifactId>spring-context</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-
+                <dependency>
+                  <groupId>com.amazonaws</groupId>
+                  <artifactId>aws-xray-recorder-sdk-core</artifactId>
+                  <version>1.2.1</version>
+                </dependency>
 		<!-- provided dependencies -->
 
 		<dependency>
